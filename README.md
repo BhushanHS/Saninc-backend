@@ -49,17 +49,17 @@ To set up the Laravel project, follow these steps:
     php artisan key:generate
    ```
 
-6.  **Run Migrations:**
+6. **Run Migrations:**
     ```bash
     php artisan migrate
     ```
-
+    
 7. **Seed Database:**
   ```bash 
     php artisan db:seed
    ```
   
-8.  **Start Development Server:**
+8. **Start Development Server:**
    ```bash  
     php artisan serve
    ```
