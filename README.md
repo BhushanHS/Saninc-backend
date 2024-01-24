@@ -33,27 +33,35 @@ To set up the Laravel project, follow these steps:
 2. **Navigate to Project Directory:**
  ```bash  
     cd your-laravel-project
+ ```
 
   
-4. ```bash  **Install Dependencies:**
+3. **Install Dependencies:**
+   ```bash  
     composer install
-
+   ```
    
-5. ```bash **Create Environment File:**
+4. **Create Environment File:**
+  ```bash
      cp .env.example .env
-
+  ```
    
-6. ```bash **Generate Application Key:**
+5. **Generate Application Key:**
+   ```bash 
     php artisan key:generate
-
+   ```
    
-7. ```bash **Run Migrations:**
+6.  **Run Migrations:**
+    ```bash
     php artisan migrate
-
+    ```
    
-8. ```bash Seed Database:**
+7. **Seed Database:**
+  ```bash 
     php artisan db:seed
-   
+   ```
   
-9. ```bash  **Start Development Server:**
+8.  **Start Development Server:**
+   ```bash  
     php artisan serve
+   ```
