@@ -29,13 +29,11 @@ To set up the Laravel project, follow these steps:
    ```bash
    git clone https://github.com/your-username/your-laravel-project.git
 
-
 2. **Navigate to Project Directory:**
  ```bash  
     cd your-laravel-project
  ```
 
-  
 3. **Install Dependencies:**
    ```bash  
     composer install
@@ -50,12 +48,12 @@ To set up the Laravel project, follow these steps:
    ```bash 
     php artisan key:generate
    ```
-   
+
 6.  **Run Migrations:**
     ```bash
     php artisan migrate
     ```
-   
+
 7. **Seed Database:**
   ```bash 
     php artisan db:seed
